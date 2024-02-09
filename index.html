@@ -4,21 +4,43 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<title>Pa-bebe amp</title>
 		<style>
+			
+
 			body {
     			background-color: rgb(255, 194, 194);
+				font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				color: rgb(66, 66, 66);
+
 			}
+
+			button {
+				padding: 20px;
+				font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				background: none;
+				border: 6px dashed rgb(250, 117, 117);
+				color: rgb(66, 66, 66);
+			}
+			button:hover {
+				background-color: rgb(188, 144, 144)
+			}
+
+
+			
 		</style>
 		
 	</head>
 	<body>
-		<p>Test</p>
-		<button id="yesButton">Yes</button>
-		<button id="noButton" onmouseover="runAway()">No</button>
+		<div id="question">
+			<p>Test??</p>
+			<div id="ansButtons">
+				<button id="yesButton">Yes</button>
+				<button id="noButton">No</button>
+			</div>
+		</div>
+		
 		<script>
-			function runAway(){
-				//if mouse hovers over button, button moves away
-				console.log("test");
-			}
+			
+
 		</script>
 	</body>
 </html>
