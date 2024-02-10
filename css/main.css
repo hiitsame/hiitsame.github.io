@@ -16,6 +16,9 @@ button {
     border: 6px dashed rgb(250, 117, 117);
     color: rgb(66, 66, 66);
 }
+button#yesButton {
+    padding: 30px;
+}
 button:hover {
     background-color: rgb(188, 144, 144)
 }
@@ -23,3 +26,31 @@ button#noButton {
     position: relative;
     z-index: 2;
 }
+
+
+.social-footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    
+  }
+  
+  ul.menu-simple {
+    list-style: none;
+    display: inline-flex;
+  }
+
+  
+  .social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+    margin: 5px;
+  }
+  
+  .social-footer .social-footer-icons .fa:hover {
+    color: #4a4a4a;
+    transition: color 0.3s ease-in;
+  }
+  
+  
